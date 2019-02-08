@@ -1,0 +1,27 @@
+body{
+	background-size: cover;
+}
+
+header{
+	background-color: #ffcccc;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: black;
+	border: 3px solid black;
+ 	border-collapse: collapse;
+}
+
+article{
+  	padding: 20px;
+  	background-color: #f1f1f1;
+}
+
+footer{
+  	background-color: #ffcccc;
+  	padding: 10px;
+  	text-align: center;
+  	color: black;
+  	border: 3px solid black;
+ 	border-collapse: collapse;
+}
