@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pretty Woman Profile</title>
+	<link rel="stylesheet" type="text/css" href="eiei.css">
+</head>
+<body background="sky.jpg">
+		<header>Pretty Woman Profile</header><br>
+		<article>
+			<h1 align="center">Welcome to my Profile</h1>		
+
+			<a href="https://www.google.com" target="_blank"> <center><img src="catty.jpg"></a></center>
+
+			<table align="center" style=" width:50%">
+				<tr>
+					<th>
+						Firstname
+					</th>
+					<th>
+						Lastname
+					</th>
+					<th>
+						ID
+					</th>
+				</tr>
+				<tr align="center">
+					<td>
+						Pailin
+					</td>
+					<td>
+						Parkpitcharoen
+					</td>
+					<td>
+						5935512023
+					</td>
+				</tr>
+			</table>
+
+			<table align="center"><tr><td>
+			<ul>
+				<div class="bullet" style="list-style-type:square;">
+			  <li id = "food">Food</li>
+			  <li id = "movie">Movie</li>
+			  <li id = "mail">E-main</li>
+			 	</div>
+			</ul>
+			</td></tr></table>
+		</article><br>
+
+		<script>
+		   jQuery("#food").click( function () {
+		       jQuery("#food").text("Noodle");
+		   });
+		   jQuery("#mivoe").click( function () {
+		       jQuery("#movie").text("fantacy");
+		   });
+		   jQuery("#mail").click( function () {
+		       jQuery("#mail").text("s5935512023@phuket.psu.ac.th");
+		   });
+
+		   $("#id3").click( function () {
+		       $(this).text("wait");
+		   });
+		   $("#id3").click(function() {
+		       $(this).fadeOut(3000);
+		       $(this).fadeIn(3000);
+		   });
+		</script>
+
+		<footer>
+			This is FOOTER :)
+			<button onclick="alert('Hi I am Joy, Welcome to my profile :)');"> Click Me! </button>
+		</footer>
+
+</body>
+</html>
